@@ -1,0 +1,18 @@
+.conveyor {
+  background-image: linear-gradient(90deg, #222 50%, #444 50%);
+  background-size: 40px 100%;
+}
+
+.conveyorRunning {
+  animation: move-conveyor 1s linear infinite;
+}
+
+@keyframes move-conveyor {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 0;
+  }
+}
